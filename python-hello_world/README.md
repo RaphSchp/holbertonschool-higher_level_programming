@@ -1,5 +1,5 @@
 <div align="center">
-    <h1><img src="https://icons8.com/icon/13441/python" alt="Python"> Python - Hello, World <img src="https://icons8.com/icon/13441/python" alt="Python"></h1>
+    <h1>:snake: Python - Hello, World :snake:</h1>
 </div>
 
 ![Holberton School Logo](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/logo.jpg?format=1500w)

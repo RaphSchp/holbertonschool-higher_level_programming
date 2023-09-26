@@ -19,8 +19,8 @@ This repository was made to store all directories of my projects, it was made in
 
 <br>
 
-*   <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
-*   <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
+*    <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
+*    <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
 * 3
 
 

@@ -12,8 +12,7 @@ This repository was made to store all directories of my projects, it was made in
 
 ## :large_blue_circle: Projects
 
-:memo:
-:pencil:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
+:memo:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
 * python-hello_world
 * 2

@@ -15,7 +15,7 @@ This repository was made to store all directories of my projects, it was made in
 :memo:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
 *   <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
-* 2
+*   <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
 * 3
 
 

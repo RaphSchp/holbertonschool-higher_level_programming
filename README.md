@@ -24,7 +24,7 @@ This repository was made to store all directories of my projects, it was made in
  * 3
 
 <br>
-<details>
+</details>
 
 ## :radio_button: Author
 

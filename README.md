@@ -6,11 +6,11 @@
 
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
-## Description
+## :large_blue_circle: Description
 
 This repository was made to store all directories of my projects, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
 
-## Projects
+## :large_blue_circle: Projects
 
 This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
@@ -20,10 +20,10 @@ This is a non-exhaustive list of my projects, I will update it as soon I've fini
 
 
 
-## Author
+## :large_blue_circle: Author
 
 * Raphael Schopfer <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
 
-## License
+## :large_blue_circle: License
 
 This program is distributed under the terms of the Holberton license.

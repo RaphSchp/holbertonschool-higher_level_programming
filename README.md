@@ -15,7 +15,7 @@ This repository was made to store all directories of my projects, it was made in
 :memo:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
 <details open>
-<summary> <strong> September 25 > September 29 </strong> </summary>
+<summary> <strong> 📁 September 25 > September 29 </strong> </summary>
 
 <br>
 
@@ -23,7 +23,7 @@ This repository was made to store all directories of my projects, it was made in
  * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
  * 3
 
-
+<br>
 
 ## :radio_button: Author
 

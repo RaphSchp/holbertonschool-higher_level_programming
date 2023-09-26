@@ -1,5 +1,5 @@
 <div align="center">
-    <h1> ![Python](https://icons8.com/icon/13441/python) Python - Hello, World ![Python](https://icons8.com/icon/13441/python) </h1>
+    <h1><img src="https://icons8.com/icon/13441/python" alt="Python"> Python - Hello, World <img src="https://icons8.com/icon/13441/python" alt="Python"></h1>
 </div>
 
 ![Holberton School Logo](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/logo.jpg?format=1500w)
@@ -31,7 +31,7 @@ This project is to understand what is Python and how use it, it was made in the 
 * The length of your files will be tested using ```wc```
 
 
-## Author :fist_right::fist_left:
+## Author
 
 * Raphael Schopfer <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
 

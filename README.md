@@ -14,7 +14,7 @@ This repository was made to store all directories of my projects, it was made in
 
 :memo:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
-<details open>
+<details>
 <summary> <strong> 📁 September 25 > September 29 </strong> </summary>
 
 <br>
@@ -24,6 +24,7 @@ This repository was made to store all directories of my projects, it was made in
  * 3
 
 <br>
+<details>
 
 ## :radio_button: Author
 

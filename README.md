@@ -17,20 +17,22 @@ This repository was made to store all directories of my projects, it was made in
 <details>
 <summary> <strong> 📁 September 25 > September 29 </strong> </summary>
 <br>
+
 * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
 * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
 * 3
-<br>
-</details>
 
 <br>
+</details>
 
 <details>
 <summary> <strong> 📁 September 25 > September 29 </strong> </summary>
 <br>
+
 * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
 * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
 * 3
+
 <br>
 </details>
 

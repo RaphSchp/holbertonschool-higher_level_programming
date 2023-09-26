@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>holbertonschool-higher_level_programming</h1>
+    <h1>:desktop_computer:holbertonschool-higher_level_programming:computer_mouse:</h1>
 </div>
 
 ![Holberton School Logo](https://uploads-ssl.webflow.com/64107f65f30b69371e3d6bfa/6480d99a4643eeded57474df_Holberton%20actual%20digital%20france.png)
@@ -12,7 +12,8 @@ This repository was made to store all directories of my projects, it was made in
 
 ## :large_blue_circle: Projects
 
-This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
+:memo:
+:pencil:This is a non-exhaustive list of my projects, I will update it as soon I've finish a project
 
 * python-hello_world
 * 2

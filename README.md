@@ -19,17 +19,17 @@ This repository was made to store all directories of my projects, it was made in
 
 <br>
 
- * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
- * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
- * 3
- 
+   * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-hello_world">python-hello_world</a>
+   * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions">python-if_else_loops_functions</a>
+   * 3
+
 <br>
 
 </details>
 
 ## :radio_button: Author
 
-* Raphael Schopfer <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* Raphaël Schopfer <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
 
 ## :radio_button: License
 

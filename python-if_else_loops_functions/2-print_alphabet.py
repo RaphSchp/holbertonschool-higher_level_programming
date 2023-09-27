@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for ch in range(ord('a'), ord('z') + 1):
-    print(chr(ch), end='')
+for abc in range(97, 123):
+        print(chr(abc), end = "");

@@ -1,4 +1,6 @@
-digits = [1, 2, 3]
-output = [(x, y) for x in digits for y in digits if x != y]
-print(output)
-# [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]
+#!/usr/bin/python3
+for first_number in range(0, 8):
+    for second_number in range(first_number, 10):
+        if first_number != second_number:
+            print("{}{}".format(first_number, second_number), end=", ")
+print(89)

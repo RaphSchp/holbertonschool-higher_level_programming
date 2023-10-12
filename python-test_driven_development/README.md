@@ -35,7 +35,7 @@ This project is to understand what is Python and how use it, it was made in the 
 
 ### Python Test Cases
 
-* Allowed editors: ```vvi```, ```vim```, ```emacs```
+* Allowed editors: ```vi```, ```vim```, ```emacs```
 * All your files should end with a new line
 * All your test files should be inside a folder ```tests```
 * All your test files should be text files (extension: ```.txt```)

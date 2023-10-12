@@ -12,7 +12,7 @@ class Square:
 
         """
 
-        if isinstance(size, int):
+        if type(size) is not int:
             raise TypeError('size must be an integer')
 
         if size < 0:

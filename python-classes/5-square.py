@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """A Square Class"""
 
+
 class Square:
     """A Square Class"""
 
     def __init__(self, size=0):
         """
-            TypeError: If `size` type is not `int`.
+            TypeError: If `size` type is not `int`FRANCK.
 
             ValueError: If `size` is less than `0`.
 

@@ -1,48 +1,29 @@
 #!/usr/bin/python3
-"""Unittest for max_integer(list)
+"""Unittest for max_integer([..])
 """
 import unittest
-from max_integer import max_integer
+max_integer = __import__('6-max_integer').max_integer
 
 
 class TestMaxInteger(unittest.TestCase):
-    """Class made for testing max integers"""
+    """Testing for a function that returns a max value"""
 
-    def test_empty_list(self):
-        """Test max_integer with an empty list"""
-        result = max_integer([])
-        self.assertIsNone(result)
+    def test_max(self):
+        """Test for verifying the max value"""
+        # test max when in the list 5 is max
+        self.assertAlmostEqual(max_integer([1, 2, 3, 4, 5]), 5)
+        self.assertAlmostEqual(max_integer([]), None)
+        self.assertAlmostEqual(max_integer(), None)
+        self.assertAlmostEqual(max_integer([5, 5, 5, 5, 5]), 5)
+        self.assertAlmostEqual(max_integer([5]), 5)
+        self.assertAlmostEqual(max_integer([-5]), -5)
+        self.assertAlmostEqual(max_integer([-1, -80, -15, -100, -1998000]), -1)
+        self.assertAlmostEqual(max_integer([-1, -80, 15, 100, -1998]), 100)
 
-    def test_single_element(self):
-        """Test max_integer with a list of 1 element"""
-        result = max_integer([5])
-        self.assertEqual(result, 5)
-
-    def test_ordered_list(self):
-        """Test max_integer with a list in ascending order"""
-        result = max_integer([1, 2, 3, 4, 5])
-        self.assertEqual(result, 5)
-
-    def test_unordered_list(self):
-        """Test max_integer in a list of random order"""
-        result = max_integer([3, 2, 5, 1, 4])
-        self.assertEqual(result, 5)
-
-    def test_duplicate_numbers(self):
-        """Test max_integer with a list of duplicate elements"""
-        result = max_integer([1, 5, 3, 2, 5])
-        self.assertEqual(result, 5)
-
-    def test_negative_numbers(self):
-        """Test for max_integer of negative numbers"""
-        result = max_integer([-1, -2, -3, -4, -5])
-        self.assertEqual(result, -1)
-
-    def test_mixed_numbers(self):
-        """Test max_integer with a list of positive and negative numbers"""
-        result = max_integer([-5, -2, 0, 3, 1])
-        self.assertEqual(result, 3)
-
-
-if __name__ == '__main__':
-    unittest.main()
+    def test_values(self):
+        """Test for assertion raises"""
+        self.assertRaises(TypeError, max_integer, None)
+        self.assertRaises(Exception, max_integer("Hola"))
+        self.assertRaises(Exception, max_integer, [4, None, "3"])
+        self.assertRaises(Exception, max_integer((4, 5, 6, 7)))
+        self.assertRaises(Exception, max_integer, [{4: 2, 2: 1}, (1, 2), 5])

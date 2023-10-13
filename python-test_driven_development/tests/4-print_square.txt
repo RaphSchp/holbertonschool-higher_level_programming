@@ -1,0 +1,41 @@
+The Test for the print_square function
+---------------------------
+
+Prints a square using '#' of the given size.
+
+Parameters:
+    size (int): The size of the square.
+
+Raises:
+    TypeError: If size is not an integer.
+    ValueError: If size is less than 0.
+
+Examples:
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+    >>> print_square(10)
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+
+    >>> print_square(0)
+
+
+    >>> print_square(1)
+    #
+
+    >>> print_square(-1)
+    Traceback (most recent call last):
+    ...
+    ValueError: size must be >= 0

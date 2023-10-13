@@ -1,31 +1,52 @@
 #!/usr/bin/python3
-"""
-This is the "2-matrix_divided" module.
 
-The 2-matrix_divided module supplies one function, matrix_divided(matrix, div).
+"""
+Creating a funtion that divides the matrix
+
 """
 
 
 def matrix_divided(matrix, div):
-    """Divides all elements in the matrix by div"""
-    if type(matrix) is not list:
+    """Divides all elements of a matrix.
+
+    Parameters:
+    matrix: matrix being divided
+    div: number the matrix is divided by.
+
+    Returns: a new divided matrix
+
+    Raises:
+    TypeError: If matrix is not a list of integers or floats.
+    TypeError: If each row of the matrix does not have the same size.
+    TypeError: If div is not a number (integer or float).
+    ZeroDivisionError: If div is equal to 0.
+    """
+
+    # Validate matrix
+
+    if not isinstance(matrix, list) or \
+            not all(isinstance(row, list) for row in matrix):
         raise TypeError(
             "matrix must be a matrix (list of lists) of integers/floats")
-    size = None
-    for listy in matrix:
-        if type(listy) is not list:
-            raise TypeError(
-                "matrix must be a matrix (list of lists) of integers/floats")
-        if size is None:
-            size = len(listy)
-        elif size != len(listy):
-            raise TypeError("Each row of the matrix must have the same size")
-        for inty in list:
-            if type(inty) is not int and type(inty) is not float:
-                raise TypeError("matrix must be a matrix (list of lists) of \
-integers/floats")
-    if type(div) is not int and type(div) is not float:
+
+    # Validate RowSize
+
+    RowSize = len(matrix[0])
+    if not all(len(row) == RowSize for row in matrix):
+        raise TypeError("Each row of the matrix must have the same size")
+
+    # Validate div
+
+    if not isinstance(div, (int, float)):
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
-    return [[round(inty / div, 2) for inty in listy] for listy in matrix]
+
+    # Perform division and rounding
+
+    NewMatrix = []
+    for row in matrix:
+        NewRow = [round(element / div, 2) for element in row]
+        NewMatrix.append(NewRow)
+
+    return NewMatrix

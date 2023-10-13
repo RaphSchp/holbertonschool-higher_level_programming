@@ -1,26 +1,38 @@
 #!/usr/bin/python3
-"""
-Prints the text with new lines
+"""This is a module that contains a function
+
+This function is going to be used to make the project of TDD
 """
 
 
 def text_indentation(text):
-    """Prints the text with two new lines
+    """Print lines with 2 new lines
 
-    Parameters:
-    Text: the text to be processed.
+    Print a text with a specific condition:
+        If a '.', '?' and ':' were found, add 2 new lines
 
-    Raises:
-    TypeError: If text is not a string
+    Args:
+        text (str): The text to be used in this problem
+
     """
-
-    # Validate text
-
-    if not isinstance(text, str):
+    if type(text) != str:
         raise TypeError("text must be a string")
 
-    SentenceSeparators = [".", "?", ":"]
-    for char in text:
-        print(char, end="")
-        if char in SentenceSeparators:
-            print("\n\n", end="")
+    delimeter = ".?:"
+    flag = 0
+    new = str()
+
+    for lett in text:
+        if lett in delimeter:
+            flag = 1
+            new += lett
+            new = new.strip()
+            print(f"{new}", end="\n\n")
+            new = str()
+            continue
+        flag = 0
+        new += lett
+
+    if not flag:
+        new = new.strip()
+        print(f"{new}", end="")

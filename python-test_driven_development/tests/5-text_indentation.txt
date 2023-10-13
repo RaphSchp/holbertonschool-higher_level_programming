@@ -1,48 +1,68 @@
-The Test for the text_indentation function
----------------------------
+# The ``5-text_indentation`` module ::
+=====================================
 
-Prints a text with 2 new lines after each occurrence of '.', '?', and ':'.
+# Import ``5-text_indentation`` function
+----------------------
+>>> text_indentation = __import__('5-text_indentation').text_indentation
 
-Args:
-    text (str): The text to be printed.
+# Passing a text with delimiters
+-----------------------
+>>> text = """Hello, how are you doing? I am great and You? I am OK, Thank you. \
+... I want this things: Pepsi and a little water."""
+>>> text_indentation(text)
+Hello, how are you doing?
+<BLANKLINE>
+I am great and You?
+<BLANKLINE>
+I am OK, Thank you.
+<BLANKLINE>
+I want this things:
+<BLANKLINE>
+Pepsi and a little water.
+<BLANKLINE>
 
-Raises:
-    TypeError: If text is not a string.
+# Passing a string with no delimiters
+-----------------------
+>>> text_indentation("Hi there, This is a sentence with no signs")
+Hi there, This is a sentence with no signs
 
-Example:
-    >>> text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \
-Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud: \
-Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere. \
-Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum \
-rationi oboediens. Si id dicis, vicimus. Inde sermone vario sex illa a Dipylo \
-stadia confecimus. Sin aliud quid voles, postea. Quae animi affectio suum \
-cuique tribuens atque hanc, quam dico. Utinam quidem dicerent alium alio \
-beatiorem! Iam ruinas videres""")
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# Passing just delimiters with spaces
+-----------------------
+>>> text_indentation("     .     ?     :")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+:
+<BLANKLINE>
 
-    Quonam modo?
+# Passing just delimiters with spaces
+-----------------------
+>>> text_indentation("Hi     .Mine     ?Lie     :")
+Hi     .
+<BLANKLINE>
+Mine     ?
+<BLANKLINE>
+Lie     :
+<BLANKLINE>
 
-    Utrum igitur tibi litteram videor an totas paginas commovere?
+# Passing a number
+-----------------------
+>>> text_indentation(5)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
 
-    Non autem hoc:
+# Passing nothing
+-----------------------
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
 
-    igitur ne illud quidem.
-
-    Fortasse id optimum, sed ubi illud:
-
-    Plus semper voluptatis?
-
-    Teneo, inquit, finem illi videri nihil dolere.
-
-    Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.
-
-    Si id dicis, vicimus.
-
-    Inde sermone vario sex illa a Dipylo stadia confecimus.
-
-    Sin aliud quid voles, postea.
-
-    Quae animi affectio suum cuique tribuens atque hanc, quam dico.
-
-    Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
+# Passing two arguments
+-----------------------
+>>> text_indentation("Hi. I see you tomorrow? OK let it go.", "This is the second. Thanks?")
+Traceback (most recent call last):
+...
+TypeError: text_indentation() takes 1 positional argument but 2 were given

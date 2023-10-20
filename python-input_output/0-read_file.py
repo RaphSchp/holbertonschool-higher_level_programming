@@ -2,6 +2,7 @@
 """
 Module for readig a file
 """
+
 def read_file(filename=""):
     """
     Read the contents of a text file

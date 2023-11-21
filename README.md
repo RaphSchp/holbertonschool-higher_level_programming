@@ -4,7 +4,7 @@
 
 ![Holberton School Logo](https://uploads-ssl.webflow.com/64107f65f30b69371e3d6bfa/6480d99a4643eeded57474df_Holberton%20actual%20digital%20france.png)
 
-![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)![MYSQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## :radio_button: Description
 
@@ -59,6 +59,15 @@ This repository was made to store all directories of my projects, it was made in
 <br>
 
 * <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-almost_a_circle">python-almost_a_circle</a>
+
+
+</details>
+
+<details>
+<summary> <strong> 📁 November 20 > November 24 CHANGE ME </strong> </summary>
+<br>
+
+* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-almost_a_circle">SQL_introduction</a>
 
 
 </details>

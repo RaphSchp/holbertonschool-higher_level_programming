@@ -8,7 +8,7 @@
 
 ## Description
 
-This project is to understand what is Python and how use it, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
+This project is to understand what is SQL and how use it, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
 
 # Learning Objectives
 

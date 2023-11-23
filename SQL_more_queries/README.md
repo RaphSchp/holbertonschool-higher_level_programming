@@ -104,7 +104,6 @@ performance_schema
 sys
 $
 ```
-![SQLJOINS](/SQL_more_queries/images/sqljoin.png)
 
 **In the container, credentials are ```root/root```**
 
@@ -128,6 +127,7 @@ id  name
 8   Thriller
 $
 ```
+![SQLJOINS](/SQL_more_queries/images/sqljoin.png)
 
 ## Author
 

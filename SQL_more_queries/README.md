@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📝SQL - Introduction📊</h1>
+    <h1>📝SQL - More queries📊</h1>
 </div>
 
 ![Holberton School Logo](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/logo.jpg?format=1500w)

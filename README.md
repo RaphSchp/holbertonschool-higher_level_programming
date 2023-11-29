@@ -73,6 +73,16 @@ This repository was made to store all directories of my projects, it was made in
 
 </details>
 
+<details>
+<summary> <strong> 📁 November 27 > December 1 CHANGE ME !!!!</strong> </summary>
+<br>
+
+* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/SQL_introduction">python-object_relational_mapping</a>
+* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/SQL_more_queries">SQL_more_queries</a>
+
+
+</details>
+
 ## :radio_button: Author
 
 * Raphaël Schopfer <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>

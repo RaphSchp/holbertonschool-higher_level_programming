@@ -6,6 +6,10 @@
 
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
+## Description
+
+This project is to understand what is Python and how use it, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
+
 # Before you start…
 
 **Please make sure your MySQL server is in 8.0 ->** <a href="https://intranet.hbtn.io/rltoken/XGGI_GSNhqZU7q_GlvDkCQ">How to install MySQL 8.0 in Ubuntu 20.04</a>
@@ -14,9 +18,9 @@
 
 In this project, you will link two amazing worlds: Databases and Python!
 
-In the first part, you will use the module MySQLdb to connect to a MySQL database and execute your SQL queries.
+In the first part, you will use the module `MySQLdb` to connect to a MySQL database and execute your SQL queries.
 
-In the second part, you will use the module SQLAlchemy (don’t ask me how to pronounce it…) an Object Relational Mapper (ORM).
+In the second part, you will use the module `SQLAlchemy` (don’t ask me how to pronounce it…) an Object Relational Mapper (ORM).
 
 The biggest difference is: no more SQL queries! Indeed, the purpose of an ORM is to abstract the storage to the usage. With an ORM, your biggest concern will be “What can I do with my objects” and not “How this object is stored? where? when?”. You won’t write any SQL queries only Python code. Last thing, your code won’t be “storage type” dependent. You will be able to change your storage easily without re-writing your entire project.
 
@@ -150,9 +154,11 @@ Also, you can have this warning message:
 ```
 /usr/local/lib/python3.4/dist-packages/sqlalchemy/engine/default.py:552: Warning: (1681, "'@@SESSION.GTID_EXECUTED' is deprecated and will be re
 moved in a future release.")                                                                                                                    
-  cursor.execute(statement, parameters)  
-You can ignore it.
+  cursor.execute(statement, parameters)
 ```
+
+You can ignore it.
+
 
 ## Author
 

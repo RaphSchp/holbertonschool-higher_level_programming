@@ -74,11 +74,10 @@ This repository was made to store all directories of my projects, it was made in
 </details>
 
 <details>
-<summary> <strong> 📁 November 27 > December 1 CHANGE ME !!!!</strong> </summary>
+<summary> <strong> 📁 November 27 > December 1 </strong> </summary>
 <br>
 
-* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/SQL_introduction">python-object_relational_mapping</a>
-* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/SQL_more_queries">SQL_more_queries</a>
+* <a href="https://github.com/RaphSchp/holbertonschool-higher_level_programming/tree/main/python-object_relational_mapping">python-object_relational_mapping</a>
 
 
 </details>

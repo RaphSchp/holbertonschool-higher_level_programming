@@ -17,3 +17,4 @@ if __name__ == "__main__":
 
     for state in session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
+        
